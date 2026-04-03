@@ -1,5 +1,5 @@
 export interface Recipe {
-    id: string;
+    id: number;
     title: string;
     description: string;
     servings: number;
@@ -7,4 +7,5 @@ export interface Recipe {
     difficulty: string;
     ingredients: string[];
     instructions: string;
+    image?: string; // optional image URL
 }
